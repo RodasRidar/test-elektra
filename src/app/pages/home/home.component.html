@@ -1,0 +1,12 @@
+@if (isLoading) {
+<app-loader [images]="images" [interval]="interval"></app-loader>
+}
+
+<ion-header>
+  <ion-toolbar>
+      <ion-title>Elektra Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content  class="ion-padding">
+  <ion-button (click)="showLoader()">Iniciar</ion-button>
+</ion-content>

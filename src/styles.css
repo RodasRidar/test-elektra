@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+ion-loading.custom-loading {
+    --background: transparent;
+    --spinner-color: #1c6dff;
+    color: #1c6dff;
+  }
